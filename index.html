@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tecnoraqmi</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .portfolio-card img {
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-card img:hover {
+      transform: scale(1.05);
+    }
+
+    .portfolio-title {
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .portfolio-subtitle {
+      color: gray;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .carousel-item {
+      padding: 40px 0;
+    }
+
+    /* تحسين شكل الأسهم */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      background-size: 60% 60%;
+    }
+
+    /* تحسين النقاط */
+    .carousel-indicators [data-bs-target] {
+      background-color: #555;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .carousel-indicators .active {
+      background-color: #007bff;
+    }
+  </style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Tecnoraqmi</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" target="_blank" href="https://wa.me/+963938787722"><svg
+          xmlns="http://www.w3.org/2000/svg" style="padding: 1px;" width="16" height="16" fill="currentColor"
+          class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        </svg> Contact</a>
+    </div>
+  </header>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>We Code It, You Own It</h1>
+            <p>Tecnoraqmi delivers websites, mobile apps, and ERP systems that transform your ideas into digital
+              success.</p>
+            <!-- <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div> -->
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <span style="color: #434C6D; font-size: 30px; font-weight: bold;"> At Tecnoraqmi </span> we believe
+              technology should empower businesses, not complicate them. With our motto “We
+              code it, you own it,” we are dedicated to building digital solutions that truly belong to our clients.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Website Design & Development – modern, responsive, and
+                  user-focused</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Mobile Applications – intuitive apps that connect you with
+                  your audience</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span> Software & ERP Planning – smart systems tailored to your
+                  business processes.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span> Hosting & Server Solutions – reliable infrastructure to
+                  keep your business online 24/7.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span> SEO & Data Analysis – strategies that boost your online
+                  visibility and growth.</span></li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/logo.jpeg" width="650" height="350" alt="">
+          </div>
+          <p>Our mission is simple: to deliver high-quality, scalable, and customized technology solutions that
+            transform your ideas into real success stories. Whether you’re a startup or an established enterprise, we
+            work with you every step of the way to ensure your digital presence is strong, secure, and future-ready.
+          </p>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Why Choose </span><strong>Tecnoraqmi?</strong></h3>
+              <p>
+                At Tecnoraqmi, we don’t just deliver code — we deliver ownership. With expertise in web design,
+                mobile apps, ERP systems, hosting, and SEO, we provide end-to-end solutions that are reliable,
+                scalable, and tailored to your business.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+                <h3><span>01</span> What makes Tecnoraqmi different from others?</h3>
+                <div class="faq-content">
+                  <p>
+                    We combine technical expertise with a client-first approach. Our motto "We code it, you own it"
+                    means you get full control over your digital assets without hidden restrictions.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <h3><span>02</span> Do you provide end-to-end project support?</h3>
+                <div class="faq-content">
+                  <p>
+                    Yes, from planning and design to development, hosting, and SEO, we offer complete solutions
+                    under one roof to save you time and resources.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <h3><span>03</span> Can your solutions grow with my business?</h3>
+                <div class="faq-content">
+                  <p>
+                    Absolutely. We build scalable websites, mobile apps, and ERP systems that grow with your needs,
+                    ensuring long-term value for your business.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="Why Choose Tecnoraqmi" data-aos="zoom-in"
+              data-aos-delay="100">
+          </div>
+        </div>
+      </div>
+    </section><!-- /Why Us Section -->
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>We provide complete digital solutions to empower your business and accelerate growth</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <!-- Web Development -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-code-slash icon"></i></div>
+              <h4><a href="#" class="stretched-link">Web Development</a></h4>
+              <p>Professional websites with modern design, high performance, and scalability.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Mobile & Desktop Apps -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-phone icon"></i></div>
+              <h4><a href="#" class="stretched-link">Mobile & Desktop Apps</a></h4>
+              <p>Custom applications for iOS, Android, and desktop tailored to your business needs.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- System & Project Planning -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-diagram-3 icon"></i></div>
+              <h4><a href="#" class="stretched-link">System & Project Planning</a></h4>
+              <p>Comprehensive planning for ERP systems, business solutions, and enterprise projects.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Hosting & Servers -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-hdd-network icon"></i></div>
+              <h4><a href="#" class="stretched-link">Hosting & Servers</a></h4>
+              <p>Reliable hosting, VPS solutions, and cloud servers with top-level security.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Data Analysis -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bar-chart-line icon"></i></div>
+              <h4><a href="#" class="stretched-link">Data Analysis</a></h4>
+              <p>Transform raw data into valuable insights to support decision-making.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- SEO & Digital Growth -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-graph-up-arrow icon"></i></div>
+              <h4><a href="#" class="stretched-link">SEO & Digital Growth</a></h4>
+              <p>Improve visibility, rank higher in search results, and boost online presence.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Work Process Section -->
+    <section id="work-process" class="work-process section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Work Process</h2>
+        <p>We transform your ideas into successful digital projects through clear and structured steps.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <!-- Step 1 -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/steps-1.webp" alt="Step 1" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">01</div>
+                <h3>Analysis & Planning</h3>
+                <p>We start by understanding your needs, analyzing project data, and creating a precise strategic plan.
+                </p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Requirements Gathering</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Data Analysis</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Project Planning</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Step 1 -->
+
+          <!-- Step 2 -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/steps-2.webp" alt="Step 2" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">02</div>
+                <h3>Design & Development</h3>
+                <p>We design modern interfaces, combining visual creativity with powerful coding to ensure an ideal user
+                  experience.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>UI/UX Design</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>System Development</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Quality Testing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Step 2 -->
+
+          <!-- Step 3 -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/steps-3.webp" alt="Step 3" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">03</div>
+                <h3>Launch & Support</h3>
+                <p>We deploy your project on secure servers, optimize its visibility on search engines, and provide
+                  ongoing support.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Server Deployment</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>SEO Optimization</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Maintenance & Support</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Step 3 -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Work Process Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/1755951721105.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Alpha app</h4>
+                <p>A user-friendly app that makes buying and selling products easy and secure, with a smooth experience
+                  and advanced search features.</p>
+                <button type="button" data-toggle="modal" data-target="#exampleModal" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ِAlpha</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators (النقاط) -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0"
+                            class="active"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="5"></button>
+                        </div>
+
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720750.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720777.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720805.jpg" class="img-fluid">
+
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720833.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720867.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720893.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720932.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720966.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721021.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721105.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721165.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721195.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721165.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721195.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721227.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951720833.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721331.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755951721372.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Controls (الأسهم) -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/Screenshot 2025-08-23 173702.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Alpha dashboard</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModal1" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ِAlpha</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel1" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators (النقاط) -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#portfolioCarousel1" data-bs-slide-to="0"
+                            class="active"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel1" data-bs-slide-to="1"></button>
+                        </div>
+
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Screenshot 2025-08-23 173702.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Screenshot 2025-08-23 173755.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Screenshot 2025-08-23 173840.png" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Screenshot 2025-08-23 173918.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Screenshot 2025-08-23 173901.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Screenshot 2025-08-23 173840.png" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+
+                        <!-- Controls (الأسهم) -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/1755962279225.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Nawi</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModal111" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="modal fade" id="exampleModal111" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nawi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel1000" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators (النقاط) -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#portfolioCarousel1000" data-bs-slide-to="0"
+                            class="active"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel1000" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel1000" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279225.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279190.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279144.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279125.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279050.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279025.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962278926" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962278926.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962278862.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279078.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962278994.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962278971.jpg" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/1755962279078.jpg" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+
+                        <!-- Controls (الأسهم) -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/Screenshot 2025-08-23 183907.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Shamamis</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModa5" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="modal fade" id="exampleModa5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Shamamis</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel10" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators (النقاط) -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#portfolioCarousel10" data-bs-slide-to="0"
+                            class="active"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel10" data-bs-slide-to="1"></button>
+                        </div>
+
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img
+                                  src="assets/img/portfolio/FireShot Capture 002 - شركة شماميس للصناعات الغذائية - [www.shamamis.com].png"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img
+                                  src="assets/img/portfolio/FireShot Capture 003 - شركة شماميس للصناعات الغذائية - [www.shamamis.com].png"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img
+                                  src="assets/img/portfolio/FireShot Capture 004 - شركة شماميس للصناعات الغذائية - [www.shamamis.com].png"
+                                  class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_14319_www.shamamis.com.jpeg"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_142814_www.shamamis.com.jpeg"
+                                  class="img-fluid">
+                              </div>
+
+                            </div>
+                          </div>
+
+
+                        </div>
+
+                        <!-- Controls (الأسهم) -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/FireShot Capture 008 - برنامج مورا سوفت لادارة المدارس - [127.0.0.1].png"
+                class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>School</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModal100" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_142234_kuechen-beras.de.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>kuechen-beras</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModal2" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">kuechen-beras</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel1" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_142234_kuechen-beras.de.jpeg"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_142331_kuechen-beras.de.jpeg"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_14236_kuechen-beras.de.jpeg"
+                                  class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/Screenshot 2025-08-23 190637.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>beautyfragrance</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModal12" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">beautyfragrance</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel12" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators (النقاط) -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#portfolioCarousel12" data-bs-slide-to="0"
+                            class="active"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel12" data-bs-slide-to="1"></button>
+                        </div>
+
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_142033_www.beautyfragrance.net.jpeg"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_141819_www.beautyfragrance.net.jpeg"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_14199_www.beautyfragrance.net.jpeg"
+                                  class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_141719_www.beautyfragrance.net.jpeg"
+                                  class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/لقطة شاشة_21-8-2025_141932_www.beautyfragrance.net.jpeg"
+                                  class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Controls (الأسهم) -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/Dashboard.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Nawi dashboard</h4>
+                <button type="button" data-toggle="modal" data-target="#exampleModal13" title="More Details"
+                  class="details-link btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    fill="#fff" class="bi bi-info" viewBox="0 0 16 16">
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg></button>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nawi dashboard</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container py-5">
+                      <div id="portfolioCarousel13" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators (النقاط) -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#portfolioCarousel13" data-bs-slide-to="0"
+                            class="active"></button>
+                          <button type="button" data-bs-target="#portfolioCarousel13" data-bs-slide-to="1"></button>
+                        </div>
+
+                        <!-- Carousel inner -->
+                        <div class="carousel-inner">
+                          <!-- Slide 1 -->
+                          <div class="carousel-item active">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Dashboard.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Dashboard (1).png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Dashboard (2).png" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Slide 2 -->
+                          <div class="carousel-item">
+                            <div class="row justify-content-center text-center">
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Dashboard (3).png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Dashboard (4).png" class="img-fluid">
+                              </div>
+                              <div class="col-md-4 portfolio-card">
+                                <img src="assets/img/portfolio/Dashboard (5).png" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Controls (الأسهم) -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/portfolio-9.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>warehouse system</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/portfolio-9.webp" title="Branding 2"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Container -->
+        </div>
+      </div>
+    </section><!-- /Portfolio Section -->
+
+
+
+
+
+
+
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Here are some of the most common questions our clients ask about our services at Tecnoraqmi.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <!-- Question 1 -->
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What services does Tecnoraqmi provide?</h3>
+                <div class="faq-content">
+                  <p>We specialize in web design, mobile and desktop app development, ERP project planning, server &
+                    hosting solutions, SEO optimization, and data analysis. Our goal is to deliver complete digital
+                    solutions tailored to your business needs.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- Question 2 -->
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How long does it take to build a website or mobile app?</h3>
+                <div class="faq-content">
+                  <p>The timeline depends on the complexity of the project. Simple websites can take 2–4 weeks, while
+                    custom web or mobile applications may take 6–12 weeks. We always provide a detailed project plan
+                    before starting.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- Question 3 -->
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Do you provide hosting and maintenance services?</h3>
+                <div class="faq-content">
+                  <p>Yes, we offer reliable hosting and server management. We also provide ongoing maintenance, updates,
+                    and technical support to ensure your systems run smoothly without interruptions.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- Question 4 -->
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Can you help with SEO and digital visibility?</h3>
+                <div class="faq-content">
+                  <p>Absolutely! Our SEO experts optimize your website to improve search engine ranking, boost
+                    visibility, and drive more traffic to your business.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- Question 5 -->
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How can I get started with Tecnoraqmi?</h3>
+                <div class="faq-content">
+                  <p>You can contact us directly through our website or via WhatsApp. We will schedule a free
+                    consultation to understand your goals, then provide you with a tailored proposal and timeline.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>syria Damascus</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+963 938 787 722</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>mohammedlouayk@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+  <!-- <footer id="footer" class="footer">
+
+
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Tecnoraqmi</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+963 938 787 722</span></p>
+            <p><strong>Email:</strong> <span>mohammedlouayk#gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer> -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
